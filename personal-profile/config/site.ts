@@ -8,6 +8,8 @@ export const siteConfig = {
     pictures: {
         profile: "https://i.pinimg.com/736x/74/f4/f5/74f4f548392fbdafbe8a5d9764c83eaf.jpg",
         homepage: "/pictures/homepage.JPG",
+        face_picture: "/pictures/face_picture.JPG",
+        tweet_pic: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFpqjxjZMT5It5r1K4KJ4ZOoTreT71ymX90TNd9VqTcts7z9_CqU0sco1jn7wYmHvo2I&usqp=CAU"
     },
     navItems: [
         {

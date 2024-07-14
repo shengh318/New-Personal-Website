@@ -34,9 +34,9 @@ export default function HomepageAboutCard() {
           <div className="flex flex-col col-span-10 md:col-span-8">
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-0">
-                <h3 className="font-semibold text-foreground/90">Daily Mix</h3>
+                <h3 className="font-semibold text-foreground/90">{`Sheng's Mix`}</h3>
                 <p className="text-small text-foreground/80">318 Tracks</p>
-                <h1 className="text-large font-medium mt-2">{`Sheng's Adventure`}</h1>
+                <h1 className="text-large font-medium mt-2">{`Adventures of the Snake`}</h1>
               </div>
               <Button
                 isIconOnly
@@ -57,12 +57,12 @@ export default function HomepageAboutCard() {
                   thumb: "w-2 h-2 after:w-2 after:h-2 after:bg-foreground",
                 }}
                 color="foreground"
-                defaultValue={33}
+                defaultValue={10}
                 size="sm"
               />
               <div className="flex justify-between">
-                <p className="text-small">1:23</p>
-                <p className="text-small text-foreground/50">4:32</p>
+                <p className="text-small">2:30</p>
+                <p className="text-small text-foreground/50">3:18:01</p>
               </div>
             </div>
 
