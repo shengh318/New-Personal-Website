@@ -11,6 +11,8 @@ import clsx from "clsx";
 import { GiDove } from "react-icons/gi";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import React from "react";
+import { User } from "@nextui-org/user";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -48,7 +50,14 @@ export const Navbar = () => {
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
       >
-        <NavbarItem className="hidden sm:flex gap-2">
+        <NavbarItem className="hidden sm:flex gap-5">
+          <User
+            avatarProps={{
+              src: `${siteConfig.pictures.profile}`,
+            }}
+            description="Software Developer"
+            name="Sheng Huang"
+          />
           <Link
             isExternal
             aria-label="Linkedin"
