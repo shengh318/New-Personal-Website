@@ -7,6 +7,7 @@ export const siteConfig = {
     description: "Make beautiful websites regardless of your design experience.",
     pictures: {
         profile: "https://i.pinimg.com/736x/74/f4/f5/74f4f548392fbdafbe8a5d9764c83eaf.jpg",
+        homepage: "/pictures/homepage.JPG",
     },
     navItems: [
         {
