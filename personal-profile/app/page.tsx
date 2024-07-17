@@ -1,9 +1,8 @@
+"use client";
 import { Grid } from "@mui/material";
-import { Spacer } from "@nextui-org/react";
 
-import HomepageAboutCard from "@/components/homepageAboutCard";
-import DailyMixCard from "@/components/DailyMixCard";
-import HomepageTweets from "@/components/HomepageTweets";
+import HomepageInfo from "@/components/HomepageInfo";
+import Computer1Comp from "@/components/Computer1Comp";
 
 export default function Home() {
   return (
@@ -20,8 +19,18 @@ export default function Home() {
         </h2>
       </div> */}
 
-      <div className="inline-block max-w-lg text-center justify-center">
+      <div className="inline-block">
         <Grid container columns={16} spacing={2}>
+          {/* <Grid item xs={16}>
+            <Canvas>
+              <Suspense>
+                <ambientLight />
+                <OrbitControls />
+                <Computer1 />
+              </Suspense>
+              <Environment preset="sunset" />
+            </Canvas>
+          </Grid>
           <Grid item xs={7}>
             <DailyMixCard />
           </Grid>
@@ -38,6 +47,13 @@ export default function Home() {
           </Grid>
           <Grid item xs={16}>
             <HomepageAboutCard />
+          </Grid>
+        </Grid> */}
+          <Grid item xs={8}>
+            <Computer1Comp />
+          </Grid>
+          <Grid item xs={8}>
+            <HomepageInfo />
           </Grid>
         </Grid>
       </div>
